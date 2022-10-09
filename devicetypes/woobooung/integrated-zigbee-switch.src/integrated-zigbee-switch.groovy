@@ -133,7 +133,7 @@ private getMODEL_MAP() {
 }
 
 metadata {
-    definition(name: "Integrated ZigBee Switch", namespace: "WooBooung", author: "Booung", ocfDeviceType: "oic.d.switch", vid: "generic-switch") {
+    definition(name: "BDIntegrated ZigBee Switch", namespace: "Bdhwan", author: "Bdhwan", ocfDeviceType: "oic.d.switch", vid: "generic-switch") {
         capability "Actuator"
         capability "Configuration"
         capability "Refresh"
